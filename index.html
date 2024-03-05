@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> GumPlace | Projeto Senai</title> 
+    <title> FrontLine | Projeto Senai</title> 
 
-    <!-- Estilo CSS -->
+    <!-- Estilo CSS (para puxar o css do projeto) -->
     <link rel="stylesheet" href="css/style.css">
 
     <!-- Validador CSS -->
@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="validador/glightbox/css/glightbox.min.css">   
     <link rel="stylesheet" href="validador/swiper/swiper-bundle.min.css">   
 
-    <!-- Google Fonts-->
+    <!-- Google Fonts usado no site -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
@@ -32,17 +32,38 @@
     <header id="header"> 
         <div class="d-flex flex-column"> 
             <div class="profile"> <!-- div = Caixa -->
-                <img src="img/hero-bg2.jpg" alt="" class="img-fluid rounded-circle">
+                <img src="img/logo.jfif" alt="" class="img-fluid rounded-circle">
                 <h1 class="text-ligth"> <a href="index.html"> FrontLine </a> </h1>
-
+                
                 <div class="social-links mt3 text-center"> 
 
-                </div>
+                     <!-- href = para colocar o link do aplicativo (indicado no icone) -->
+                     <!-- class = para colocar o link do icone -->
+                     <!-- a = ancora -->
+
+                <a href="https://www.instagram.com/" target="_blank"> <i class='bx bxl-instagram'></i> </a>                    
+                <a href="https://www.facebook.com/?locale=pt_BR" target="_blank"> <i class='bx bxl-facebook-circle'></i> </a>               
+                <a href="https://www.twitch.tv/" target="_blank"> <i class='bx bxl-twitch'></i> </a>
+                <a href="https://www.youtube.com/" target="_blank"> <i class='bx bxl-youtube'></i> </a>
+
+                </div> <!-- Fim social-links-->
+            </div>  <!-- Fim div Profile-->
+
+                <nav id="navbar" class="nav-menu navbar">
+                    <!-- Podemos substituir o href pelo endereço html, ex: sobre.html para puxar outro codigo em html para a tela-->
+                    <!-- O comando (li) serve para formar listas-->
+                    <ul>
+                        </li> <a href="#hero" class="nav-link scrollto active"> <i class="bx bx-home"> </i> <span>Home</span> </a> </li>
+                        </li> <a href="#about" class="nav-link scrollto"> <i class="bx bx-user"> </i> <span>Sobre</span> </a> </li>
+                        </li> <a href="#resume" class="nav-link scrollto"> <i class="bx bx-file-blank"> </i> <span>Resumo</span> </a> </li>
+                        </li> <a href="#portfolio" class="nav-link scrollto"> <i class="bx bx-book-content"> </i> <span>Portfolio</span> </a> </li>
+                        </li> <a href="#services" class="nav-link scrollto"> <i class="bx bx-server"> </i> <span>Serviços</span> </a>  </li>  
+                        </li> <a href="#contact" class="nav-link scrollto"> <i class="bx bx-envelope"> </i> <span>Contato</span> </a>  </li>  
+                    </ul>
+                </nav> <!-- Fim NAV = Menu-->
 
 
-
-            </div> <!-- FIM div Profile -->
-        </div>
+        </div> <!-- FIM div Profile -->
 
     </header>
 </body>     
